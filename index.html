@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/llave-inglesa.png" type="image/x-icon">
+    <title>Mecanic Like</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Menu encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mecanic</a>
+            </div>
+            <nav id="nav" class="MostrarOcultarMenu">
+                <ul>
+                    <li><a href="#inicio" onclick="selecionar()">Inicio</a></li>
+                    <li><a href="#sobre" onclick="selecionar()">Sobre nosotros</a></li>
+                    <li><a href="#portafolio" onclick="selecionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="selecionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="MostrarOcultarMenu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--Seccion Inicio-->
+    <seccion id="inicio" class="inicio">
+        <div class="text-inicio">
+            <h1>Mecanicos profesionales</h1><br>
+            <h2>Modificaciones y restauraciones</h2><br><br>
+            <a href="#" class="cta">Cotisa ahora.</a>
+        </div>
+    </seccion>
+    <!--Seccion Sobre nosotros-->
+    <section id="sobre" class="sobre"><br>
+        <h2 class="titulo">Nuestros servicios.</h2>
+        <div class="contenedor-sobre">
+            <img src="img/autotuning.jpg" alt="" class="img-about-us">
+            <div class="contenedor-texto">
+                <h3><span>1</span>Modificaciones de interiores.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At blanditiis possimus, quod aliquam vitae ad amet explicabo nam similique veniam dolorem officiis repellat neque quibusdam eos saepe ratione enim reprehenderit!</p>
+                <h3><span>2</span>Instalacion y adaptacion de Motores.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis laboriosam perferendis dolorum, enim accusamus unde, velit nulla optio, nostrum dolore quisquam dolorem reprehenderit laborum adipisci blanditiis maiores modi beatae rerum?</p>
+                <h3><span>3</span>servicios generales y venta de auto partes.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio inventore fugit repellendus voluptatem odit voluptatibus non, laboriosam, recusandae omnis hic architecto quas impedit blanditiis deleniti. Rerum pariatur quasi a assumenda.</p>
+            </div>
+        </div>
+    <br>
+    </section>
+    <!--Seccion Portafolio-->
+    <section id="portafolio" class="portafolio"><br>
+        <h2 class="titulo">Portafolio</h2>
+        <div class="galeria-port">
+            <div class="img-port">
+                <img src="img/img1.jpg" alt="">
+                <div class="hover-galeria">
+                    <img src="img/motor-turbo.png" alt="">
+                    <p>Nuestro trabajo.</p>
+                </div>
+            </div> <br>
+            <div class="img-port">
+                <img src="img/img2.jpg" alt="">
+                <div class="hover-galeria">
+                    <img src="img/motor-turbo.png" alt="">
+                    <p>Nuestro trabajo.</p>
+                </div>
+            </div> <br> 
+            <div class="img-port">
+                <img src="img/img3.jpg" alt="">
+                <div class="hover-galeria">
+                    <img src="img/motor-turbo.png" alt="">
+                    <p>Nuestro trabajo.</p>
+                </div>
+            </div> <br>
+            <div class="img-port">
+                <img src="img/img4.jpg" alt="">
+                <div class="hover-galeria">
+                    <img src="img/motor-turbo.png" alt="">
+                    <p>Nuestro trabajo.</p>
+                </div>
+            </div> <br>
+            <div class="img-port">
+                <img src="img/img5.jpg" alt="">
+                <div class="hover-galeria">
+                    <img src="img/motor-turbo.png" alt="">
+                    <p>Nuestro trabajo.</p>
+                </div>
+            </div> <br>
+            <div class="img-port">
+                <img src="img/img6.jpg" alt="">
+                <div class="hover-galeria">
+                    <img src="img/motor-turbo.png" alt="">
+                    <p>Nuestro trabajo.</p>
+                </div>
+            </div> <br>
+            <div class="img-port">
+                <img src="img/img7.jpg" alt="">
+                <div class="hover-galeria">
+                    <img src="img/motor-turbo.png" alt="">
+                    <p>Nuestro trabajo.</p>
+                </div>
+            </div> <br>
+            <div class="img-port">
+                <img src="img/img8.jpg" alt="">
+                <div class="hover-galeria">
+                    <img src="img/motor-turbo.png" alt="">
+                    <p>Nuestro trabajo.</p>
+                </div>
+            </div> <br>
+        </div>
+    </section>
+    <!--Seccion Sobre nosotros-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo">Contacto</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Número de telefónico">
+                    <input type="text" placeholder="Dirección electronico">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--Info-->
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-phone-volume"></i>
+                                Lamanos: 55-46-08-48-60
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: tacoLoco@ejemplo.com
+                            </li>
+                            <li>
+                                Dirección: San Juan Esquina Don Ramon.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Seccion Footer-->
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>+52 55-46-08-48-60</p>
+            </div>
+            <div class="content-foo">
+                <h4>Redes Sociales</h4>
+                <a href="#" target="_blank">Instagram.</a>
+                <br>
+                <a href="#" target="_blank">Facebook.</a>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>San Juan Esquina Don Ramon. </p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Mecanic | Reparación y Modificaciones.</h2>
+    </footer>
+
+    <script src="main..js"></script>
+</body>
+</html>
